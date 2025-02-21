@@ -1,0 +1,420 @@
+Message-ID: <1402632483.1.1740158681664@2ed3a5500789>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1855439191.1740158681642"
+
+------=_Part_0_1855439191.1740158681642
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Test Plan for Active Savings Top-up Card Payment Screen</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Test Plan for Active Savings Top-up Card Payment Screen</h1>
+    <div class=3D"Section1">
+        <h4 id=3D"TestPlanforActiveSavingsTop-upCardPaymentScreen-1.Objecti=
+ve"><strong>1. Objective</strong></h4>
+<p>The goal of this test plan is to outline the approach for automating the=
+ testing of the <strong>Active Savings Top-up Card Payment</strong> screen.=
+ This screen will be tested using Playwright (with TypeScript) to ensure th=
+at core functionalities work as expected, and to validate all associated fe=
+atures.</p>
+<hr>
+<h4 id=3D"TestPlanforActiveSavingsTop-upCardPaymentScreen-2.Scope"><strong>=
+2. Scope</strong></h4>
+<p><strong>In-Scope:</strong></p>
+<ul>
+<li>
+<p><strong>Core Functionalities</strong>: Form validation, page layout, int=
+eraction with payment systems, CSP script validation, and performance testi=
+ng.</p></li>
+<li>
+<p><strong>Tools &amp; Framework</strong>: Playwright (TypeScript), GitLab,=
+ Jenkins, JIRA.</p></li>
+</ul>
+<p><strong>Out-of-Scope:</strong></p>
+<ul>
+<li>
+<p><strong>Non-Core Functionalities</strong>: Features unrelated to the pay=
+ment form and page interaction.</p></li>
+<li>
+<p><strong>Manual Testing</strong>: Exploratory testing is not included in =
+the automation scope.</p></li>
+</ul>
+<hr>
+<h4 id=3D"TestPlanforActiveSavingsTop-upCardPaymentScreen-3.Roles&amp;Respo=
+nsibilities"><strong>3. Roles &amp; Responsibilities</strong></h4>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"9fd813a0-5858-4142-b4f1-a24=
+2d35b53b1" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 146.0px;">
+<col style=3D"width: 613.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Role</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Responsibilities</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Developers</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=F0=9F=9B=A0=EF=B8=8F Develop feature-specific tests. <br>
+=E2=9C=85 Write automation tests for individual features (page layout, form=
+ submission, etc.).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>SDETs</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=F0=9F=94=A7 Maintain the test framework. <br>
+=F0=9F=94=84 Resolve flaky tests and improve automation stability. <br>
+=E2=9A=99=EF=B8=8F Oversee CI/CD processes for test execution.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h4 id=3D"TestPlanforActiveSavingsTop-upCardPaymentScreen-4.Tools&amp;Techn=
+ologies"><strong>4. Tools &amp; Technologies</strong></h4>
+<ul>
+<li>
+<p><strong>Playwright</strong>: Web automation framework for testing.</p></=
+li>
+<li>
+<p><strong>TypeScript</strong>: Language used for writing tests.</p></li>
+<li>
+<p><strong>GitLab</strong>: Version control for test scripts and code.</p><=
+/li>
+<li>
+<p><strong>Jenkins</strong>: Continuous Integration and Deployment tool for=
+ running tests.</p></li>
+<li>
+<p><strong>JIRA</strong>: Used for task tracking and bug management.</p></l=
+i>
+</ul>
+<hr>
+<h4 id=3D"TestPlanforActiveSavingsTop-upCardPaymentScreen-5.TestDeliverable=
+s"><strong>5. Test Deliverables</strong></h4>
+<ul>
+<li>
+<p><strong>Test Documentation</strong>: Test cases for each feature, detail=
+ing the expected outcomes.</p></li>
+<li>
+<p><strong>Automated Test Scripts</strong>: Playwright-based scripts for ea=
+ch feature.</p></li>
+<li>
+<p><strong>Test Execution Reports</strong>: Including logs, pass/fail statu=
+s, and any issues detected during execution.</p></li>
+</ul>
+<hr>
+<h4 id=3D"TestPlanforActiveSavingsTop-upCardPaymentScreen-6.TestExecutionSc=
+hedule"><strong>6. Test Execution Schedule</strong></h4>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"8308c523-b103-45f8-b8f8-133=
+91a811575" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Task</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Start Date</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>End Date</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Assignee</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Status</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Develop Test Automation Scripts</p></td>
+<td class=3D"confluenceTd">
+<p>25/11/2024</p></td>
+<td class=3D"confluenceTd">
+<p>01/12/2024</p></td>
+<td class=3D"confluenceTd">
+<p>Developer 1</p></td>
+<td class=3D"confluenceTd">
+<p>In Progress</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test Script Execution</p></td>
+<td class=3D"confluenceTd">
+<p>02/12/2024</p></td>
+<td class=3D"confluenceTd">
+<p>05/12/2024</p></td>
+<td class=3D"confluenceTd">
+<p>SDET 1</p></td>
+<td class=3D"confluenceTd">
+<p>Planned</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>CI/CD Integration</p></td>
+<td class=3D"confluenceTd">
+<p>06/12/2024</p></td>
+<td class=3D"confluenceTd">
+<p>08/12/2024</p></td>
+<td class=3D"confluenceTd">
+<p>SDET 2</p></td>
+<td class=3D"confluenceTd">
+<p>Planned</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Framework Maintenance</p></td>
+<td class=3D"confluenceTd">
+<p>Ongoing</p></td>
+<td class=3D"confluenceTd">
+<p>Ongoing</p></td>
+<td class=3D"confluenceTd">
+<p>SDET Team</p></td>
+<td class=3D"confluenceTd">
+<p>Ongoing</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h4 id=3D"TestPlanforActiveSavingsTop-upCardPaymentScreen-7.AcceptanceCrite=
+ria"><strong>7. Acceptance Criteria</strong></h4>
+<ul>
+<li>
+<p>=E2=9C=85 <strong>Core functionality</strong>: All major user interactio=
+ns (e.g., form submission, layout validation) must pass automated tests.</p=
+></li>
+<li>
+<p>=F0=9F=9A=AB <strong>No Critical Errors</strong>: The functionality of t=
+he payment form must work without major failures.</p></li>
+<li>
+<p>=E2=9A=99=EF=B8=8F <strong>Stable Automation Framework</strong>: Ensure =
+the framework is reliable with minimal flaky tests.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_0_1855439191.1740158681642--

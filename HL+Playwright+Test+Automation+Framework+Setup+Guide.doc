@@ -1,0 +1,732 @@
+Message-ID: <626106123.1.1740158666874@ad1116f2f1d9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1991869130.1740158666851"
+
+------=_Part_0_1991869130.1740158666851
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>HL Playwright Test Automation Framework Setup Guide</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>HL Playwright Test Automation Framework Setup Guide</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-Overview">O=
+verview</h3>
+<p>This page provides instructions for setting up the HL Web Platform Playw=
+right Automation Framework. Follow the steps carefully to ensure that your =
+machine is configured correctly for automated testing with Playwright.</p>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-Prerequisites">Prer=
+equisites <img class=3D"emoticon emoticon-tick" data-emoji-id=3D"atlassian-=
+check_mark" data-emoji-shortname=3D":check_mark:" data-emoji-fallback=3D":c=
+heck_mark:" src=3D"31b381df7ef5edf814add6d7ce43451dcde7041778910eb6b9545a1e=
+e90972ad" width=3D"16" height=3D"16" data-emoticon-name=3D"tick" alt=3D"(ti=
+ck)"></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Node.js Installation</strong></p>
+<ul>
+<li>
+<p><strong>Request</strong> the installation of Node.js for your machine fr=
+om the following link:<br><a href=3D"https://hlprod.service-now.com/" class=
+=3D"external-link" rel=3D"nofollow">Node.js Request Form</a></p></li>
+</ul></li>
+<li>
+<p><strong>Playwright Automation Framework</strong></p>
+<ul>
+<li>
+<p>After installing Node.js, <strong>download</strong> the automation frame=
+work from GitLab:<br><a href=3D"https://gitlab.com/hldev/hlweb/rrt/playwrig=
+ht-automation" class=3D"external-link" rel=3D"nofollow">HL Playwright Autom=
+ation Framework Repository</a></p></li>
+</ul></li>
+</ol>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-SetupInstructions">=
+Setup Instructions <img class=3D"emoticon emoticon-blue-star" data-emoji-id=
+=3D"270d" data-emoji-shortname=3D":writing_hand:" data-emoji-fallback=3D"=
+=E2=9C=8D=EF=B8=8F" src=3D"2394383b2bd0184dc82603bb357b11eed5f7479f50062569=
+ad7d1a80f432d6de" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-sta=
+r" alt=3D"(blue star)"></h3>
+<p>The setup process involves three main parts:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Node.js &amp; Artifactory Configuration</strong><br>
+2. <strong>Install Dependencies</strong><br>
+3. <strong>Install Playwright Browsers</strong></p></li>
+</ol>
+<hr>
+<h4 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-1.Node.js&amp;Artif=
+actoryConfiguration">1. Node.js &amp; Artifactory Configuration <img class=
+=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f6e0" data-emoji-shortna=
+me=3D":tools:" data-emoji-fallback=3D"=F0=9F=9B=A0=EF=B8=8F" src=3D"4d00a08=
+de5c843d3c4eda8770425eb25268b7ee0330d3010972445b915e393d3" width=3D"16" hei=
+ght=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)"></h4>
+<p>Make sure your environment is configured to fetch packages from HL's Art=
+ifactory. Follow these steps:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Download </strong><a href=3D"/wiki/spaces/AS/pages/494517225/Art=
+ifactory+Certificate+-+Workaround" data-linked-resource-id=3D"494517225" da=
+ta-linked-resource-version=3D"29" data-linked-resource-type=3D"page"><stron=
+g>HL Root CA Certificate</strong></a><strong> (bottom of page)</strong></p>
+<ul>
+<li>
+<p>Obtain the <strong>hlunixca3.crt</strong> file and store it on your loca=
+l machine.</p></li>
+</ul></li>
+<li>
+<p><strong>Configure </strong><code>.npmrc</code></p>
+<ul>
+<li>
+<p>Open or create the <code>~/.npmrc</code> file and add the following conf=
+iguration:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">registr=
+y=3Dhttps://artifactory.hargreaveslansdown.co.uk/artifactory/api/npm/npm-re=
+mote/
+no_proxy=3Dhttps://artifactory.hargreaveslansdown.co.uk
+cafile=3Dc:\certs\hlunixca3.crt
+strict-ssl=3Dfalse</pre>
+</div>
+</div>
+<p></p></li>
+</ul></li>
+<li>
+<p><strong>Verify Node.js Version </strong></p>
+<ul>
+<li>
+<p>Ensure that you have Node.js <strong>version 18+</strong> installed.</p>=
+</li>
+</ul></li>
+</ol>
+<hr>
+<h4 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-2.InstallDependenci=
+es">2. Install Dependencies <img class=3D"emoticon emoticon-blue-star" data=
+-emoji-id=3D"2601" data-emoji-shortname=3D":cloud:" data-emoji-fallback=3D"=
+=E2=98=81=EF=B8=8F" src=3D"11387a70a76aef58c093fab81b087fc452fd0d0394316ec6=
+aef6bfbb3e925450" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-sta=
+r" alt=3D"(blue star)"></h4>
+<p>To install the necessary dependencies for the automation framework:</p>
+<ol start=3D"1">
+<li>
+<p>Open a terminal/command prompt.</p></li>
+<li>
+<p>Navigate to the project directory where you cloned the framework.</p></l=
+i>
+<li>
+<p>Run the following command to install the required packages:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">pnpm in=
+stall # Recommended: Use pnpm for faster installs</pre>
+</div>
+</div>
+<p>or</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npm ins=
+tall # Use npm if pnpm is unavailable</pre>
+</div>
+</div>
+<p></p></li>
+</ol>
+<hr>
+<h4 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-3.InstallPlaywright=
+Browsers">3. Install Playwright Browsers <img class=3D"emoticon emoticon-bl=
+ue-star" data-emoji-id=3D"1f310" data-emoji-shortname=3D":globe_with_meridi=
+ans:" data-emoji-fallback=3D"=F0=9F=8C=90" src=3D"fdc6ab5c6ed0ea156b280969f=
+e184e2d731e8b3215c5f0c03858fa816ad13a9e" width=3D"16" height=3D"16" data-em=
+oticon-name=3D"blue-star" alt=3D"(blue star)"></h4>
+<p>Playwright requires additional browsers for testing. To install these:</=
+p>
+<ol start=3D"1">
+<li>
+<p>Run the following command:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright install</pre>
+</div>
+</div>
+<p>This will download and install the necessary browsers on your system.</p=
+></li>
+</ol>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-RunningtheTests">Ru=
+nning the Tests <img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D=
+"1f3ac" data-emoji-shortname=3D":clapper:" data-emoji-fallback=3D"=F0=9F=8E=
+=AC" src=3D"010aedd1f723f0467cec30c9d31a977576e5d8ed0e27c30744147eb26ac67c6=
+6" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue=
+ star)"></h3>
+<p>Once the setup is complete, you can begin running tests:</p>
+<h4 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-ToRunAllTests:">To =
+Run All Tests:</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test # Normal run npx playwright test --debug # Run in debug mode n=
+px </pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">playwri=
+ght test --ui # Run in UI mode npx playwright test --headed # Run in headed=
+ mode </pre>
+</div>
+</div>
+<h4 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-ToRunTestsinaSpecif=
+icProject:"><br>
+To Run Tests in a Specific Project:</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --project=3Ddemo-logged-in</pre>
+</div>
+</div>
+<h4 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-ToRunaSingleTest:">=
+<br>
+To Run a Single Test:</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test &lt;path-to-test-file&gt;.spec.ts</pre>
+</div>
+</div>
+<p></p>
+<h4 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-ToRunRRTTests:">To =
+Run RRT Tests:</h4>
+<p>You can filter RRT tests by using the <code>@rrt-go</code> tag. Here are=
+ some commands for running tests by type:</p>
+<ul>
+<li>
+<p><strong>Smoke Tests</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --grep '@smoke-test' --retries=3D1</pre>
+</div>
+</div>
+<p></p></li>
+<li>
+<p><strong>Parallel Tests</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --grep '@rrt-go' --grep-invert --% "@non-parallel|@us-market|@=
+uk-market|@headed" --retries=3D1</pre>
+</div>
+</div>
+<p></p></li>
+<li>
+<p><strong>UK Market Tests</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --grep '(?=3D.*@rrt-go)(?=3D.*@uk-market-hours)' --retries=3D1=
+</pre>
+</div>
+</div>
+<p></p>
+<p><strong>Sequential Tests</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --grep '(?=3D.*@rrt-go)(?=3D.*@non-parallel)' --workers=3D1 --=
+retries=3D1</pre>
+</div>
+</div>
+<p></p></li>
+<li>
+<p><strong>Headed Tests</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --grep '(?=3D.*@rrt-go)(?=3D.*@headed)' --headed --retries=3D1=
+</pre>
+</div>
+</div>
+<p></p></li>
+<li>
+<p><strong>US Market Tests</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --grep '(?=3D.*@rrt-go)(?=3D.*@us-market)' --retries=3D1</pre>
+</div>
+</div></li>
+</ul>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-ConfiguringTestEnvi=
+ronments">Configuring Test Environments <img class=3D"emoticon emoticon-blu=
+e-star" data-emoji-id=3D"2699" data-emoji-shortname=3D":gear:" data-emoji-f=
+allback=3D"=E2=9A=99=EF=B8=8F" src=3D"19f5134f0a379312f6f5ef2ac896887a50e2a=
+d401765b2e3ed39260c8b8cb801" width=3D"16" height=3D"16" data-emoticon-name=
+=3D"blue-star" alt=3D"(blue star)"></h3>
+<p>To run tests against different environments (e.g., <code>dev46</code>, <=
+code>test3</code>, <code>proj02</code>), set the environment variable <code=
+>TEST_TARGET_HOST</code>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">TEST_TA=
+RGET_HOST=3Ddev46 npx playwright test</pre>
+</div>
+</div>
+<p></p>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-DebuggingTests=F0=
+=9F=90=9E">Debugging Tests =F0=9F=90=9E</h3>
+<p>You can use your IDE's debugging tools for debugging Playwright tests. J=
+etBrains IDEs (e.g., IntelliJ, WebStorm) offer first-class support for debu=
+gging Playwright scripts.</p>
+<p>To enable debugging, you can run the tests with the <code>--debug</code>=
+ flag:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">npx pla=
+ywright test --debug</pre>
+</div>
+</div>
+<p></p>
+<p>For IDE-specific configuration, refer to the official <a href=3D"https:/=
+/www.jetbrains.com/help/idea/playwright.html#debug_tests" class=3D"external=
+-link" rel=3D"nofollow">JetBrains Playwright Guide</a>.</p>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-OracleDatabaseSetup=
+(ifrequired)">Oracle Database Setup (if required)</h3>
+<p>Some tests require an Oracle Database to run SQL queries. If this applie=
+s to your setup, follow these steps:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Download Oracle Instant Client</strong>:<br><a href=3D"https://w=
+ww.oracle.com/database/technologies/instant-client.html" class=3D"external-=
+link" rel=3D"nofollow">Oracle Instant Client Download</a></p></li>
+<li>
+<p><strong>Extract and Save</strong> to the <code>C:\Oracle</code> director=
+y (or any preferred location).</p></li>
+<li>
+<p><strong>Update Environment Variables</strong>: Add the Instant Client di=
+rectory to your system's <code>PATH</code> environment variable, or use the=
+ following command:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">NODE_OR=
+ACLEDB_CLIENT_LIB_DIR=3D"C:\Oracle\instantclient_21_13" npx playwright test=
+</pre>
+</div>
+</div>
+<p></p></li>
+</ol>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-RepositoryStructure=
+">Repository Structure</h3>
+<ul>
+<li>
+<p><code>resources/</code><br>
+Contains test data (e.g., client data).</p></li>
+<li>
+<p><code>src/page-models/</code><br>
+Contains page models for different MAAD journeys.</p></li>
+<li>
+<p><code>tests/</code><br>
+The main folder where test scripts are located.</p></li>
+</ul>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-Teardown(BFTosca)">=
+Teardown (BF Tosca)</h3>
+<p>Some tests require a teardown process to reset data after a test is run.=
+ This is automatically handled by <strong>Tosca</strong> for certain tests.=
+ Ensure your <code>.env</code> file contains the following information:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">CLIENT_=
+SECRET=3D'&lt;obtain from Tosca Administrator&gt;' JOB_CREATOR_EMAIL=3DUCX:=
+&lt;your initials&gt; GLOBAL_JOB_TIMEOUT=3D30</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"HLPlaywrightTestAutomationFrameworkSetupGuide-Conclusion">Conclus=
+ion</h3>
+<p>Once you complete these steps, you will have the HL Playwright Automatio=
+n Framework set up and ready to run tests on your machine. If you encounter=
+ any issues, please refer to the repository=E2=80=99s documentation or reac=
+h out to your team for further assistance.</p>
+    </div>
+</body>
+</html>
+------=_Part_0_1991869130.1740158666851
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4d00a08de5c843d3c4eda8770425eb25268b7ee0330d3010972445b915e393d3
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAjVBMVEVHcEyImaaImaaImaaImaZm
+dX9mdX+ImaaImaZmdX/0kAyImab0kAyImaZmdX+ImaaImaaImab0kAxmdX9mdX9mdX9mdX9mdX9m
+dX+Imab0kAyImaaImaZmdX/0kAxmdX9mdX9mdX/0kAz0kAz0kAyTmJdmdX/0kAyImaZmdX/0kAzg
+kim/hjePmJzMk0bf6kn5AAAAKHRSTlMAQIDvz+8wnxCfECCfYL+P37+A32CAj0DPUM8wr1DvcBCv
+UGBwnyAguBawEwAAAiJJREFUeNrd1+uSmkAQhuFvQARBDp511dXd7CbD5nD/lxedStkjkPm2zb+8
+F/AUzTQ1BUKNV1XSXkuq1QZSmTbW2niHz7VctH7J+oxrWRTbP2UA7+iYu064ZBp7qwDt/NJjkmoM
+oLRSCtp46xOTzRkuvZN4TPUVrn911pCK+HFnCa/0cecEr+Jxp4JffXMapdNu4CcbVCudBf4yWYT7
+iizotC/wMwIdgM4h7EJOu4JfJFCcdRwbDzkcslFvKUJOu+5C0r7j2IDTPf2dD8V7cVwhp01yeO3t
+XVHmOw2ubcbi+P14ynvvQooPUd34qz5eXIYYdD4+RBJnsFJmGnJEIk5MHCdxx63DNuCIRJwmA4jj
+JOZYA4A4TnonTolL666xWK+2zpG+/+QOMLnfwRMuTQWhUuycnrQBdFJaAEPSBBqpqYXpSAk+I6X7
+XRRFRpS+tEVA4neISEcwyTlUWgJEcg6ROg7SX0NSCtKyqo7du6EvicMTZ0B6f8zpS0+53iGSyuES
+d4ikd7jEHS5xh0t6h0vckdJpQNI4QEBSOURSOERSOFziDpHUDpe4wyXuMEnjcIk7SqkOOBrJBByV
+NLOumDhUyuy1UYFiRBwimdsPTxZ7jkaaCjSTIfsOl77doBGujcTRSW/yjkoApThKae4NdIhScTSS
+QIadO5fe4KqJQ6XnHF2pBh6QvshXMnPMzEDV/Nk9z8WRMmNMBm3563z+muO/7je+6nfRvPo7kwAA
+AABJRU5ErkJggg==
+------=_Part_0_1991869130.1740158666851
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/010aedd1f723f0467cec30c9d31a977576e5d8ed0e27c30744147eb26ac67c66
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAArlBMVEVHcEw/cSM/cSM/cSM/cSMp
+LzMpLzMpLzPM1t3M1t0/cSM/cSPM1t0/cSMpLzPM1t3M1t0/cSM/cSM/cSMpLzMpLzMpLzPM1t3M
+1t0pLzPM1t3M1t0/cSNES08/cSMpLzMpLzPM1t3M1t0/cSM9REhSWV7M1t0pLzNfZ2xqcnc/cSMp
+LzPM1t0zOT6tt73CzNKPl51mbnM9REh7g4hSWV6ZoqijrLO4wchITlOFjZPVvWfCAAAAKnRSTlMA
+gEBQv0C/gL+AEI/P748Q75+vcM8QUEAw769w379gr3BQjyCAgJ8wMJ/qDCaiAAABkElEQVR42u3U
+W0/CQBQE4AUFWgQKKqKgYuvdXVquXv7/H5Mim9mUbs7S0xeTzutpvpAZWsHL9WTcj0QJiNqmw0Ea
+vtdXOkFRpNWUcq6QsCiSxpSioogpHVvSyPe+YWSlwBlJn05mVil0Q3TiA2njVlLjCUi+NIt1SUSx
+C+UoBdQ6P45SaEPQp5sUZYtNLBsjc5knvWgjCPfrFJDu/DDYI1EHzyXLY6RmqyF03g9boCUgSM95
+Y0hAjFzJIyXPH4m8DKVc0ZIdQS6d/i12BCXl9PmZgZrPdgQlERujWCJDy8bOCErKl9wRlLRLTE1M
+l4RlCIQsSUv98YRC6JJupg9vgpneFnkVJaQl02Q/0WuJ0DfPgGaJ9QNG3wDh3T38wNE3E1oqMyuJ
+ULcMtFFGvvD+u90ArZWZhUScboBi22eEvgFiTg+IOT0g5vSAmNMDYk4PiDk9IN70gGof/JxWUAVV
+UAVV0P+C6iVA5ynULgG6EGkGfKi9gx67XKcm/nLPdAZC54T1m84E0q7dFlS6g3oK/AJJbHdxh9vl
+LAAAAABJRU5ErkJggg==
+------=_Part_0_1991869130.1740158666851
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/31b381df7ef5edf814add6d7ce43451dcde7041778910eb6b9545a1ee90972ad
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AABuugAAbroB1t6xFwAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAArRJREFUOBGVU89LVFEU/u69b37p6MykZpoY
+I0VZEgm6CGoxi0L/gDCmhQtBGGzTJiiMDCJbtKtW0SL6vShaRLXILLCFVEg/FkWlCFJGjT9mxvS9
+effezr0zDrjswp2577z3nfOd736HwayREU5b2fP5o10QfACMpaB10sYYm6HzOKS6juF7b22sjGEb
+wBfSVxAQQ7SBogR82mY59LweK8qrOH3nuI1TEmYP5mf02FNEQz0orBkmBinoJdd0iDOu6oUjZ/2i
+KEZDHAX3GU7d7qVXoNS0TOWacJrALhiccpzwGgkmsOSvsoWlr0KFYgj5ypPR8C4cbG/A2McnDKbn
+UOAN0VUEZoSpsEowjkU3j77mDvR39eDcq7uYXPmtIzyoVx3O4Ra7uRWM+iOUNGADauGGBJDgRNDN
+YvhwP3r3HUBTdZx08ViEc2k1IbE5IVNGMOpVxGzFHOYKP7DbCWM6N4czXWl0tO7Ai0+TeDQ9jrZI
+AgtKCisyYR1CJo3atYzzZa+AgW3daE004uy7B0AwikzqCDzp48TYDaCqGVnlG3K8fEPJEleKbCba
+ucIs+jpP4tDe/fD8Ippr6tAUr8eticf4MD+F7Zva8U26JkFlMVxMf4YQO2ukVnnp8c7qOjwfGEVt
+VZSKSORWC2i8PIiYCGOFYKZZaleRNzik/MLpadwIktdKbqW+pxa+I3P/EpTWCAeCuPbyIbC2iLhw
+4JfApnpJRMIKpPb8ItsOMqVZTku0hRNsYv49eM5FNreIzOubqK9qwE9VdqW5aNirZiRkpnTnJSMN
+MTISEQy28ACb+/sH8JZRF0siq0tjQjDD30M0HEJ+zVq6Ypp1K1MSRSXkFu6ICN3MjPQM5Yq9CbzB
+ymYKufnCepuyaiNOJBiY53odbIbJxuy/qVyeA4MtMSiPpk30n+P8D1M+Ld4+I3biAAAAAElFTkSu
+QmCC
+------=_Part_0_1991869130.1740158666851
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/19f5134f0a379312f6f5ef2ac896887a50e2ad401765b2e3ed39260c8b8cb801
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAMFBMVEVHcExmdX9mdX9mdX9mdX9m
+dX9mdX9mdX9mdX9mdX9mdX9mdX9mdX9mdX9mdX9mdX94+S8fAAAAEHRSTlMAUN//EEAggO8wn2Cv
+cM+PW+dFPQAAAWJJREFUeNrtmMGWgyAMRYEgxKLy/3874ywaKEZan5zZ9G7l3AUxIYnpYB394ayB
+sPQEMzkROcTjqeA+EcL/i6bwrihMRicykZvfEc2OiKPmedAOz33RzLTz0D21yVsqsL70iEnxiCkt
+9MKSxKOaIlFp8pHpAI5+9wjtPXF1fq01+idu4k4XmUxNoIuENs8v4cQgIb0AzwY2iQc3iadv2rKd
+frF50z19E+dQxDVzzyOsdUZ4U+HrnFl1j2cSOJmGVB3wqih+FpCoivizgLDmSSQk5NBS3LNR6Z/y
+2j3qEfG9dz6bE7LSD1jXrw16xZFexVLLZk7ZqMUe1qF8LsqHdYkO9adYOsCodVhn+oquXfZt4b/t
+h7wrRdCkRcpIUMsIXtjwUju2+OPPEf5A4k/2uCYCb2vwRmtU64c3o3h7PKZhx0cIfKgZMmbhgx8+
+io4bjvFxHV8g4CuNrwhbjeHLOnx9+AO4/SLPhJJxTAAAAABJRU5ErkJggg==
+------=_Part_0_1991869130.1740158666851
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/11387a70a76aef58c093fab81b087fc452fd0d0394316ec6aef6bfbb3e925450
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAaVBMVEVHcEzM1t3M1t3M1t3M1t3M
+1t3M1t3M1t3M1t3M1t3M1t3M1t3N197U3ePa4ujg5+zh6O3X3+XP2N/d5erQ2eDV3uTh6O3h6O3h
+6O3c5OnZ4efh6O3h6O3T3OLh6O3h6O3h6O3h6O3h6O32ToSBAAAAI3RSTlMAUJ/f/0CPv6/vcBD/
+////////////MIC///9gz/8gUO+PEGq+5IsAAAFwSURBVHgB7dZVwqswEAXgQKYuOS16L87+9/i7
+QSbINI/9FnCAZAT15EEQanqjw0A9YqPph94osS0NbJVQSCOhj/eRv9OGGJJz0sTQgnsnVrC6bnbE
+CtfXDU9L78kiqBue9H0s+wO9OeyPJ3fdrBQ6ojStdQj4uhHYsiftKUmTBFPpJHM4eQqicDbofLka
+vDHXy5kmnGaCbgY/zI3cjpOHfY8wEN3dpT51/bHBiInJ4TBRkHcDi3G+00QhRWBE5OBu2gSshHju
+MWLAMsuC0izHh3//4XA5JxHeRMnZedhFiXmRwRdT8ddf51jrwhVk02K9ym6RAhLmPG7aBjLJaIzU
+LWSi0WDLITUctQXEhiO7hNhgHaWQGyzIDGKl+iuHWPuR1tXqAx7X+QpC2cuD7CR40fkKQu0rqFM5
+vCitgpRSqa8gVfoKKnwF+Tnu0hq1Qp01/IVqa9rKdPIFabe/vbLFOR+KElId81uz2seo9eXp6RV+
+np4SmbniugAAAABJRU5ErkJggg==
+------=_Part_0_1991869130.1740158666851
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/2394383b2bd0184dc82603bb357b11eed5f7479f50062569ad7d1a80f432d6de
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAwFBMVEVHcEw7iMM7iMM7iMM7iMP7
+yFb/3F07iMP+1VrqlknvlkX91Fk7iMM7iMP/2lzmmk/+1lo7iMPvlkX/3F3/3F07iMM7iMP/3F3+
+2Vv/21zvlkX80Vjwl0XxnEf0x1fvlkX801n/3F35ylVzoKbvlkX/3F36ylXypEr0qkv2uFDxn0f5
+xVT4vVH1sU47iMPwmkb82F390llkk6qzsX6Eo5p6jZhGi7zDlWaSj4amkXhbjK3Rk1rNrGnVvmqZ
+sZLUynOG6wrEAAAAJHRSTlMA1Zww7zDvExD2wSB2YIBAv0kgWZ+vv9/Pj11Dma/2dHCvpN+N/Q7H
+AAADA0lEQVR4Xt2Y13LaQBSGMc2SsQFTYmpxcrar0YtL3v+twiKWlUTX5iKT70o3+ubfo39m5yiT
+nue852UfM8ZkPcmDsenFC8kael69PQ9mnlzeUxh5HrWnaeR58BT5nInoh3fgxfDDK55NPM/akzUs
+kKJpXiDzVufyCY95gfI5wwIp/qsCZf//AuXTeUr1crsxqpgVyKo33pAkmHgHXu+OMmohxSR9gerv
+SDNLWyCrXEQRvrXnl5Veg6baM0PF8s2qwhuK8Vt7JtJbrN+YJ+lZeIqNzZCkWrhF1I57Au2Z2wAo
+pG1d71/MIlxdoBUACOW/fr4GUowdAnDwTD4AKEaad+u2QILDlrk61RLAxSjGW/eGQGMKktUuy2pt
+c1cE6IjyhQqFHscHydqbr5ecMjFGp6mePV5ZagIKO/wpExhdpHWuCLJDYwIA4VkCdI3iaVNdevzo
+XFOaGjsPlSMxMxW3Hl+WztDU3XpIgO6lZR1/M+KiFLSToipzUSpKSVFKD2okRH2UkmJC1EJpSdbx
+L4nekWbsUB8IFUEaURUpAhcU7thAJHz4WE9mGDuM+j67W9RWHrDnnrchxAcghHNyNRSOeUqD8AUG
+Hwt59QAhrksIAKH4isiJiX7iweT7+3O5XG09i08H72AEtojLIhoLhLG+ehZfew3nruMwDhcHNe7H
+A0Xu+CmWCAI0fODgXgo0jAX6OvJwYDjEhQsmAbWIaDTY6LtZYInMEyIoAJz7eAyeYiWaaU/4PgNf
+qHmfLWcgOEAlKtID2thONJAgoOEMB5EhC+oDxAM9LpRn5nO8Fzmhz+5sE9c6PXsvoy6TUB7K7VpU
+1Dx4mJowB+lxIsk7fThB5eReOMOU4xDYPbix5LWhDXHsSmIPUx7HVpUGNzzZMBOj0HsCTa92cnGe
+YtazcAgJvxnX0XWuzvBJ0usojQoUW+ZaWEL3owK4czHUO0ZhIBu4P6GA/r0LlN6drG63UCipSVXu
+C3T8k6ssPYP+HZ7HMytG92d1ZN35r+OHHI8xr82XzD/EH303ZrJq70UkAAAAAElFTkSuQmCC
+------=_Part_0_1991869130.1740158666851
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/fdc6ab5c6ed0ea156b280969fe184e2d731e8b3215c5f0c03858fa816ad13a9e
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAM1BMVEVHcEw7iMM7iMM7iMM7iMM7
+iMM7iMM7iMM7iMM7iMM7iMM7iMM7iMM7iMM7iMM7iMM7iMMRH0i/AAAAEHRSTlMAgL8Q32AgQO+f
+j1CvzzBw4ZaNVwAAAg5JREFUeF7lmMtyhiAMhaPcUX59/6ftAOoBp6At6apZZQb4cggRAeqYVn6W
++2Fy9krTL2xxFwMm3fIzivZ2b5j173WZde/aat6pcZUAt0Vnc5VE90LVVI6QShBFh0goWfKnJzmh
+DDwJohNEJKayLXRFLaUca4gAimaq5s4CHiGDTJwP3UH0SSR5yG5Oz+VI2wYOQCVp27I01+OEj7bg
+AFSSrP6ETGpznKA5Ooq+B5GKgJmEa5GmzDl6rtQC0XrEcd/nabkCyKhdtEEiTk5eU7itnbYnR+WA
+TRB6ZJKt6ylkziFIUgeELpkU6gQN2FRNbMCKybkBTFkDZh80U1WGiSZzDbWTjRHzIQIjdPLhqi4I
+FZBTM8P1SR06iGeQSAEhySfXXjrJwe2Bsg4H114fh0KpTW9AE8pWnR+KS0QoNm9ApsiBLT5SVzf3
+QfeQLqvThzIIfgQhCdg4dLVQHrlug5BiXy2hhwq09kGICXU+odcCNL0DTRmEOq9WHOnqgZCYqhby
+BAEy70AGoJxmDP4dCP7OYP8B9Jxsc7ctAkqfbfnZCpLtE2H7aNm2EbaNjWurZdv82X5HXD9Itl82
+7yGCVkgK7481AYJWtoMW19GP7TDKdTxuH9hDf4eM+mV00qjAdoXgutRwXbO4Ln5cV1HGyzH/dZ3/
+AeH5ScPXTxpMjyxczz5cD1H8T2P8j3Vsz4dfTyiMV5arauoAAAAASUVORK5CYII=
+------=_Part_0_1991869130.1740158666851--

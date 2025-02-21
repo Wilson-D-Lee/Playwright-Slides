@@ -1,0 +1,404 @@
+Message-ID: <1142055935.3.1740158692460@ad1116f2f1d9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1326343503.1740158692459"
+
+------=_Part_2_1326343503.1740158692459
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Test Strategy for Active Savings Top-up Card Payment Screen</tit=
+le>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Test Strategy for Active Savings Top-up Card Payment Screen</h1>
+    <div class=3D"Section1">
+        <h4 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-1.Tes=
+tingLevels"><strong>1. Testing Levels</strong></h4>
+<p>To ensure comprehensive test coverage, the following levels of testing w=
+ill be carried out:</p>
+<ul>
+<li>
+<p><strong>Unit Testing</strong>: =F0=9F=A7=AA Testing of individual compon=
+ents like form validation and button interactions.</p></li>
+<li>
+<p><strong>Integration Testing</strong>: =F0=9F=94=97 Verifying interaction=
+s between components (e.g., form submissions interacting with payment APIs)=
+.</p></li>
+<li>
+<p><strong>UI Testing</strong>: =F0=9F=96=A5=EF=B8=8F Ensuring the page lay=
+out and user interactions function as expected.</p></li>
+</ul>
+<hr>
+<h4 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-2.TestDesignT=
+echniques"><strong>2. Test Design Techniques</strong></h4>
+<ul>
+<li>
+<p><strong>Functional Testing</strong>: =F0=9F=8E=AF Focused on verifying t=
+hat all core functionalities are working correctly (form validation, paymen=
+t submission, layout check).</p></li>
+<li>
+<p><strong>Regression Testing</strong>: =F0=9F=94=84 Ensures that new featu=
+res or changes do not negatively affect existing functionalities.</p></li>
+<li>
+<p><strong>Performance Testing</strong>: =E2=9A=A1 Validates that removing =
+non-essential scripts doesn=E2=80=99t impact page load time or responsivene=
+ss.</p></li>
+<li>
+<p><strong>Security Testing</strong>: =F0=9F=94=90 Ensures CSP headers are =
+properly enforced, and no vulnerable scripts are loaded.</p></li>
+</ul>
+<hr>
+<h4 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-3.RiskMitigat=
+ionStrategies"><strong>3. Risk Mitigation Strategies</strong></h4>
+<ul>
+<li>
+<p><strong>Flakey Tests</strong>: =F0=9F=94=84 Playwright=E2=80=99s retries=
+ and explicit waits will be implemented to handle intermittent issues. Regu=
+lar monitoring of test reliability.</p></li>
+<li>
+<p><strong>Test Coverage Gaps</strong>: =F0=9F=93=89 Developers and SDETs w=
+ill periodically review test cases to cover all critical user flows and edg=
+e cases.</p></li>
+<li>
+<p><strong>CI/CD Failures</strong>: =E2=9A=99=EF=B8=8F Immediate investigat=
+ion and resolution of any failures in the CI/CD pipeline, ensuring quick fe=
+edback and fixes.</p></li>
+</ul>
+<hr>
+<h4 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-4.Reporting&a=
+mp;Monitoring"><strong>4. Reporting &amp; Monitoring</strong></h4>
+<ul>
+<li>
+<p><strong>Automated Test Reports</strong>: =F0=9F=93=8A These will include=
+ execution status (pass/fail), detailed logs, and screenshots where needed.=
+</p></li>
+<li>
+<p><strong>Weekly Status Reports</strong>: =F0=9F=93=88 To track progress o=
+n the test execution, automation updates, and identified bugs.</p></li>
+</ul>
+<hr>
+<h4 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-5.AutomationF=
+rameworkMaintenance"><strong>5. Automation Framework Maintenance</strong></=
+h4>
+<ul>
+<li>
+<p><strong>Playwright Framework Updates</strong>: =F0=9F=9B=A0=EF=B8=8F SDE=
+Ts will ensure the automation framework is continually updated to handle ne=
+w features, edge cases, and to resolve flaky tests.</p></li>
+<li>
+<p><strong>CI/CD Integration</strong>: =E2=9A=99=EF=B8=8F Continuous monito=
+ring of test execution in Jenkins to ensure automated tests are running eff=
+iciently.</p></li>
+</ul>
+<hr>
+<h4 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-6.TestExecuti=
+onProcess"><strong>6. Test Execution Process</strong></h4>
+<p>The test execution will be carried out in a structured pipeline, startin=
+g with the development of automated scripts, followed by execution, feedbac=
+k collection, and regular maintenance:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Test Script Development</strong>: Developers will write automati=
+on tests aligned with each user story or feature.</p></li>
+<li>
+<p><strong>Test Execution</strong>: SDETs will execute the tests in the CI/=
+CD pipeline and monitor results.</p></li>
+<li>
+<p><strong>Test Maintenance</strong>: SDETs will monitor for flakey tests a=
+nd provide updates or bug fixes to maintain stable automation.</p></li>
+</ol>
+<hr>
+<h4 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-7.TestCoverag=
+e"><strong>7. Test Coverage</strong></h4>
+<p>The automated tests will ensure coverage over the following areas:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3d=
+bae687-09e4-4a90-8e5a-988854815d0b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Area</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Description</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Priority</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Page Layout</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Verify all UI components are visible and correctly positioned.</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Form Validation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ensure all fields in the payment form are validated properly (required f=
+ields, correct format).</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Payment Submission</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Validate the end-to-end flow of the payment (form input to confirmation)=
+.</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Security Check</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ensure that non-essential scripts are removed and CSP headers are correc=
+t.</p></td>
+<td class=3D"confluenceTd">
+<p>Medium</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Performance</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Verify no significant impact on page load time with script removal.</p><=
+/td>
+<td class=3D"confluenceTd">
+<p>Medium</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"TestStrategyforActiveSavingsTop-upCardPaymentScreen-Conclusion"><=
+strong>Conclusion</strong></h3>
+<p>The <strong>Test Strategy</strong> ensures that all functionalities of t=
+he <strong>Active Savings Top-up Card Payment</strong> screen are rigorousl=
+y tested. The focus will be on maintaining a stable automation framework, a=
+ddressing risks such as flaky tests, and providing detailed reporting to st=
+akeholders.</p>
+    </div>
+</body>
+</html>
+------=_Part_2_1326343503.1740158692459--
