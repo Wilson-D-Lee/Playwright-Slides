@@ -1,1 +1,1 @@
-https://teams.microsoft.com/l/meetup-join/19:meeting_MDFiNGFkMTUtNzA3Mi00ZDhkLTllOTMtNzdjNzM5YzY1MDdj@thread.v2/0?context=%7B%22Tid%22:%2290578e2d-fce8-4c57-a1a6-2b4909a9dc4d%22,%22Oid%22:%223ab7df8c-2e33-42e4-a88d-0f1893841ccb%22%7D
+https://gitlab.com/qa-testing3825008/qa
